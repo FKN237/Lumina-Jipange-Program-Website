@@ -259,32 +259,7 @@ export function HeroSection() {
               </span>
             </div>
 
-            {/* Side floating images that auto-change */}
-            <div className="hidden xl:block absolute -left-20 top-1/2 -translate-y-1/2 space-y-4">
-              {[0, 1, 2].map((offset) => {
-                const imageIndex = (currentSlide + offset + 1) % heroImages.length
-                return (
-                  <button
-                    key={offset}
-                    onClick={() => {
-                      setIsAutoPlaying(false)
-                      setCurrentSlide(imageIndex)
-                    }}
-                    className={`block w-16 h-16 rounded-xl overflow-hidden shadow-lg transition-all duration-500 cursor-pointer hover:scale-110 ${
-                      offset === 0 ? "ring-2 ring-primary ring-offset-2" : "opacity-70 hover:opacity-100"
-                    }`}
-                    style={{ animationDelay: `${offset * 0.2}s` }}
-                  >
-                    <img
-                      // FILLER IMAGE: These will show the upcoming slides
-                      src={heroImages[imageIndex].src || "/placeholder.svg"}
-                      alt={heroImages[imageIndex].alt}
-                      className="w-full h-full object-cover"
-                    />
-                  </button>
-                )
-              })}
-            </div>
+           
 
             <div className="absolute top-1/2 -right-8 w-16 h-16 border-2 border-primary/20 rounded-full animate-rotate-slow" />
           </div>
