@@ -37,7 +37,7 @@ const teamMembers = [
   {
     name: "Nelson Fodjo",
     role: "Operations & Finance Leader",
-    image: "https://i.ibb.co/XkWt43Gf/NELSON.jpg",
+    image: "https://i.ibb.co/b5jDCVWv/NELSON.jpg",
     bio: "Nelson Fodjo oversees operations, finance, and administrative systems at Lumina Hub Africa. He is responsible for budgeting, financial accountability, logistics, and ensuring efficient use of resources.",
   },
 ]
