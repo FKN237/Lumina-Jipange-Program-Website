@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/Lumina-Jipange-Program-Website//_next/:path+",
+        "destination": "/Lumina-Jipange-Program-Website/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
