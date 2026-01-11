@@ -7,8 +7,9 @@ import { Button } from "@/components/ui/button"
 const journeyVideos = [
   {
     id: 1,
-    title: "Our Personal Mission & Hobbies",
-    description: "Discover the passion and personal stories that drive our mission to transform lives across Africa.",
+    title: "Our Personal Mission & Story",
+    description: "Six people from four different countries, each with distinct ambitions and personal stories, came together as a think tank driven by a shared mission. United by a passion for youth empowerment and a desire to create better lives, we met, formed Lumina Hub Africa, and marked the beginning of our incredible journey.",
+
     youtubeId: "gSzndCh_uZg",
     thumbnail: "https://img.youtube.com/vi/gSzndCh_uZg/maxresdefault.jpg",
     category: "Origins",
@@ -17,7 +18,7 @@ const journeyVideos = [
     id: 2,
     title: "Discovering Africa – The Baka People of Cameroon",
     description:
-      "An eye-opening journey into indigenous communities that shaped our understanding of grassroots impact.",
+      "We began our journey of discovery with an indigenous community that shaped our understanding of grassroots lifestyles, deepened our sense of human connection, and strengthened our empathy and collaborative spirit in research, decision-making, and communication.",
     youtubeId: "kYz5bmQtv2s",
     thumbnail: "https://img.youtube.com/vi/kYz5bmQtv2s/maxresdefault.jpg",
     category: "Exploration",
@@ -25,26 +26,26 @@ const journeyVideos = [
   {
     id: 3,
     title: "Lumina Hub Africa Help Lab – Community Activity",
-    description: "See our team in action during community engagement sessions and hands-on workshops.",
+    description: "Since French is a language barrier for most students in Mauritius, we decided to create “The Alchemist of the French Language”, a three-month French learning community designed to help beginners become proficient. Through engaging sessions, collaborative efforts, and hands-on workshops, we were able to create real impact, seeing our ideas come to life.",
     youtubeId: "CmwmqgEWOjo",
-    thumbnail: "https://img.youtube.com/vi/CmwmqgEWOjo/maxresdefault.jpg",
+    thumbnail: "https://i.ibb.co/Kzxn0csL/team.jpg",
     category: "Community",
   },
   {
     id: 4,
     title: "Case Study in Kibera – Garden of Eden",
     description:
-      "A powerful case study showcasing sustainable solutions in one of Africa's largest informal settlements.",
+      "Our mission is to transform unemployed and underemployed youth into employable professionals and job creators. We decided to begin in Kibera, Kenya. The Garden of Eden, an NGO in Kibera that employs and trains youth, served as a case study. Through an interview with them, we gained insights into their approach and learned how organizations can start addressing this challenge, helping us refine our own strategy and think of a future partnership.",
     youtubeId: "VgqVuN__32A",
     thumbnail: "https://img.youtube.com/vi/VgqVuN__32A/maxresdefault.jpg",
     category: "Impact",
   },
   {
     id: 5,
-    title: "Our Solution – Pitching for a $10k Grant",
-    description: "Watch our team pitch the Lumina Jipange solution to a panel of judges for a transformative grant.",
+    title: "From Pitch to Launch – The Lumina Jipange Program",
+    description: "To address unemployment in Kenya, we developed a 12-week market-demand skills program to train youth in Kibera. To launch the program, we pitched for a $10,000 grant, inviting donors to help bring our idea to life. We then completed our final challenge: developing our prototype and website. Together, these challenges mark the beginning of our entrepreneurial journey.",
     youtubeId: "UjqaFCrj8KI",
-    thumbnail: "https://img.youtube.com/vi/UjqaFCrj8KI/maxresdefault.jpg",
+    thumbnail: "https://i.ibb.co/pByf3Vrb/GRANT-IMAGE.jpg",
     category: "Pitch",
   },
 ]
@@ -92,11 +93,11 @@ export function JourneySection() {
             Our Journey
           </span>
           <h2 className="reveal duration-500 text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary leading-tight mb-6">
-            Our Journey to Impact
+            The Lumina Hub Africa E-LAB Innovation Pathway
           </h2>
           <p className="reveal duration-700 text-lg text-muted-foreground leading-relaxed">
-            Explore the milestones, discoveries, and challenges that have shaped Lumina Hub Africa's mission to
-            transform youth unemployment across the continent.
+            Explore the milestones, discoveries, and E-lab challenges that have shaped Lumina Hub Africa's mission to
+            transform youth unemployment starting in kibera Kenya.
           </p>
         </div>
 
@@ -169,7 +170,7 @@ export function JourneySection() {
               <div className="p-8 lg:p-12 flex flex-col justify-center">
                 <div className="mb-4">
                   <span className="font-mono text-xs tracking-[0.15em] uppercase text-primary">
-                    Video {currentIndex + 1} of {journeyVideos.length}
+                    Challenge {currentIndex + 1}
                   </span>
                 </div>
                 <h3 className="text-2xl lg:text-3xl font-bold text-secondary mb-4 leading-tight">

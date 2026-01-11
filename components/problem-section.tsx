@@ -45,7 +45,7 @@ export function ProblemSection() {
           <div className="reveal duration-500 relative order-2 lg:order-1">
             <div className="relative rounded-3xl overflow-hidden shadow-xl hover-lift group">
               <img
-                src="https://i.ibb.co/ZzYzs2Cv/KIBERA-SLUMS.jpg"
+                src="https://i.ibb.co/mFTxZSS7/advocate.jpg"
                 alt="Kibera community"
                 className="w-full h-[350px] lg:h-[450px] object-cover group-hover:scale-105 transition-transform duration-700"
               />

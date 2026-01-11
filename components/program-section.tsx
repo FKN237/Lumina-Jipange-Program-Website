@@ -100,7 +100,7 @@ export function ProgramSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <span className="reveal duration-300 inline-block font-mono text-xs tracking-[0.2em] uppercase text-primary font-semibold mb-4">
-            The Program
+            The Program (Prototype)
           </span>
           <h2 className="reveal duration-500 text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary tracking-tight text-balance">
             The <span className="text-primary animate-text-glow">Lumina Jipange Program</span>

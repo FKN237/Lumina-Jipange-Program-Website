@@ -87,7 +87,7 @@ export function FinalCtaSection() {
           </div>
 
           <p className="reveal duration-1000 text-sm text-primary-foreground/60 mt-8">
-            Join the next cohort of future professionals and entrepreneurs
+            Join the next cohort of future professionals and entrepreneurs | Our Lumina Jipange App is Coming Soon!
           </p>
         </div>
       </div>

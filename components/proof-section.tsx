@@ -1,5 +1,6 @@
 "use client"
 
+import { Play } from "lucide-react"
 import { useEffect, useRef } from "react"
 
 export function ProofSection() {
@@ -26,6 +27,10 @@ export function ProofSection() {
   const featuredVideo = {
     id: "I2chGkw-uuw",
     title: "Lumina Jipange Program – Case of Amina",
+  }
+
+  function setActiveVideo(currentIndex: any): void {
+    throw new Error("Function not implemented.")
   }
 
   return (
