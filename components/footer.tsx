@@ -36,10 +36,13 @@ export function Footer() {
                 { href: "#program", label: "The Program" },
                 { href: "#outcomes", label: "Outcomes" },
                 { href: "#team", label: "Our Team" },
+                { href: "https://v0-lumina-delta.vercel.app/", label: "App Prototype", external: true },
               ].map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}
+                    target={link.external ? "_blank" : undefined}
+                    rel={link.external ? "noopener noreferrer" : undefined}
                     className="text-secondary-foreground/70 hover:text-primary transition-colors hover:translate-x-1 inline-block"
                   >
                     {link.label}
@@ -75,7 +78,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-3 text-secondary-foreground/70">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
-                Kibera, Nairobi, Kenya
+                ALCHE, Pamplemousses, Mauritius
               </li>
             </ul>
           </div>
