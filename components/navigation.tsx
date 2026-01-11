@@ -23,6 +23,7 @@ export function Navigation() {
     { href: "#program", label: "Our Solution" },
     { href: "#team", label: "Team" },
     { href: "#journey", label: "Our Journey" },
+    { href: "https://v0-lumina-delta.vercel.app/", label: "App Prototype", external: true },
   ]
 
   return (
@@ -49,6 +50,7 @@ export function Navigation() {
                 key={link.href}
                 href={link.href}
                 className="text-sm font-medium text-secondary/80 hover:text-primary transition-colors tracking-wide"
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
               >
                 {link.label}
               </a>
