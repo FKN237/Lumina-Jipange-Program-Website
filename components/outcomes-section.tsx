@@ -92,7 +92,7 @@ export function OutcomesSection() {
             We Don't Guarantee Jobs. <span className="text-primary animate-text-glow">We Guarantee Employability.</span>
           </h2>
           <p className="reveal duration-700 text-lg text-secondary-foreground/80 leading-relaxed">
-            Lumina Hub Africa does not promise jobs. We promise preparation, exposure, and support.
+            Lumina Hub Africa does not promise jobs. We promise preparation, exposure, creativity and support.
           </p>
         </div>
 
