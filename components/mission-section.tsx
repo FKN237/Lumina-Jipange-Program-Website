@@ -56,7 +56,7 @@ export function MissionSection() {
             Lumina Hub Africa exists to transform unemployed and underemployed youth into employable professionals and
             job creators by bridging the gap between education and opportunity. We focus on converting learning,
             potential, and talent into real-world competence through hands-on experience, mentorship, and exposure to
-            practical work environments.
+            practical work environments
           </p>
         </div>
 
