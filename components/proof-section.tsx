@@ -44,7 +44,7 @@ export function ProofSection() {
             Proof & Inspiration
           </span>
           <h2 className="reveal duration-500 text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary tracking-tight">
-            See <span className="text-primary">Lumina Jipange Program</span> in Action
+            See <span className="text-primary">Lumina Jipange Program</span> in Action.
           </h2>
         </div>
 
