@@ -25,7 +25,7 @@ export function ProofSection() {
   }, [])
 
   const featuredVideo = {
-    id: "I2chGkw-uuw",
+    id: "waiQaDwDFJs",
     title: "Lumina Jipange Program – Case of Amina",
   }
 
