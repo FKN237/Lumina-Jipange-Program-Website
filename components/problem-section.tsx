@@ -124,7 +124,7 @@ export function ProblemSection() {
             <div className="reveal duration-1000 bg-secondary/5 rounded-xl p-4 border-l-4 border-primary hover:bg-secondary/10 transition-colors">
               <p className="text-muted-foreground italic">
                 As a result, capable youth remain locked out of the job market —{" "}
-                <strong className="text-secondary">a gap Lumina Hub Africa exists to close.</strong>
+                <strong className="text-secondary">a gap Lumina Hub Africa exists to close</strong>
               </p>
             </div>
           </div>
